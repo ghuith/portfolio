@@ -1,0 +1,21 @@
+/* Custom CSS for specific tweaks */
+
+/* Example: Custom hover effect on navigation links */
+nav ul li a:hover {
+    color: #1DA1F2; /* Twitter blue */
+    transition: color 0.3s ease-in-out;
+  }
+  
+  /* Example: Custom background for project cards on hover */
+  .project-card:hover {
+    background-color: #f3f4f6; /* Light gray */
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Example: Custom border for form fields on focus */
+  input:focus, textarea:focus {
+    border-color: #3b82f6; /* Tailwind blue */
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+  }
+  
